@@ -1,13 +1,7 @@
+import React from 'react'
 import { BarChart3, Settings, Lock, Rocket } from 'lucide-react'
-import type { FC } from 'react'
 
-interface Feature {
-  name: string
-  description: string
-  icon: FC<{ className?: string }>
-}
-
-const features: Feature[] = [
+const features = [
   {
     name: 'Analytics',
     description: 'Get a better understanding of your traffic and sales with detailed analytics and reporting.',
@@ -30,7 +24,7 @@ const features: Feature[] = [
   }
 ]
 
-const Features: FC = () => {
+function Features() {
   return (
     <div className="py-24 bg-white sm:py-32">
       <div className="px-6 mx-auto max-w-7xl lg:px-8">

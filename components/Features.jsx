@@ -1,30 +1,29 @@
 import { BarChart3, Settings, Lock, Rocket } from 'lucide-react'
-import { FC } from 'react'
 
 const features = [
   {
     name: 'Analytics',
     description: 'Get a better understanding of your traffic and sales with detailed analytics and reporting.',
-    icon: BarChart3,
+    icon: BarChart3
   },
   {
     name: 'Advanced Security',
-    description: 'Your customers' data will be safe and secure with enterprise-level security features.',
-    icon: Lock,
+    description: 'Your customers\' data will be safe and secure with enterprise-level security features.',
+    icon: Lock
   },
   {
     name: 'Easy Configuration',
     description: 'Easily configure your application settings through our intuitive dashboard.',
-    icon: Settings,
+    icon: Settings
   },
   {
     name: 'Quick Deployment',
     description: 'Deploy your application to production in minutes with our streamlined deployment process.',
-    icon: Rocket,
-  },
+    icon: Rocket
+  }
 ]
 
-const Features: FC = () => {
+const Features = () => {
   return (
     <div className="py-24 bg-white sm:py-32">
       <div className="px-6 mx-auto max-w-7xl lg:px-8">

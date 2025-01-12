@@ -15,16 +15,16 @@ const Hero = () => {
       {/* Main Content */}
       <div className="max-w-[1000px] mx-auto space-y-6">
         <h1 className="text-[72px] leading-[1.1] font-medium tracking-[-0.02em]">
-          All-In-One{" "}
+        Your AI-Powered Gateway to {" "}
           <span className="text-white/40">
-            Pump.fun
+          Solana
           </span>{" "}
           <br />
-          Software
+          
         </h1>
         
         <p className="text-lg text-white/60 max-w-[600px] mx-auto">
-          Dominate on the blockchain with our custom Pump.fun solutions and modules for token developers.
+        Trade smarter with AI-driven insights, real-time analytics, and intelligent portfolio management.
         </p>
 
         {/* CTA Buttons */}
@@ -33,20 +33,33 @@ const Hero = () => {
             href="#"
             className="bg-white hover:bg-white/90 text-black px-6 py-2.5 rounded-full inline-flex items-center gap-2 transition-all group"
           >
-            <span>Purchase Today</span>
+            <span>Connect Wallet</span>
             <span className="text-black/60 group-hover:translate-x-0.5 transition-transform">→</span>
           </a>
-          <a
+          <a 
             href="#"
             className="bg-[#2A2A45] hover:bg-[#2A2A45]/80 px-6 py-2.5 rounded-full inline-flex items-center gap-2 transition-colors"
           >
             <svg width="20" height="20" viewBox="0 0 20 20" fill="none">
               <path fillRule="evenodd" clipRule="evenodd" d="M10 18C14.4183 18 18 14.4183 18 10C18 5.58172 14.4183 2 10 2C5.58172 2 2 5.58172 2 10C2 14.4183 5.58172 18 10 18ZM9.5 7C8.67157 7 8 7.67157 8 8.5V11.5C8 12.3284 8.67157 13 9.5 13C9.77081 13 10.0296 12.9224 10.25 12.7828L12.75 11.2828C13.4167 10.8395 13.4167 9.16051 12.75 8.71716L10.25 7.21716C10.0296 7.07764 9.77081 7 9.5 7Z" fill="currentColor"/>
             </svg>
-            Watch Video
+            Try Demo
           </a>
         </div>
+
+       
+  <div className="mt-12">
+  <img
+    src="./images/m2.png"
+    alt="Big Image"
+    className="w-[120%] h-[60%] object-cover object-center"
+  />
+</div>
+
+
+        
       </div>
+      
 
       {/* Background Effects */}
       <div className="absolute inset-0 -z-10 overflow-hidden">

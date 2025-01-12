@@ -9,11 +9,14 @@ const Navbar = () => {
       <div className="bg-[#1F1F3B]/80 backdrop-blur-md">
         <div className="container mx-auto px-6 py-4">
           <div className="flex items-center justify-between lg:justify-center">
-            {/* Logo */}
-            <div className="lg:absolute lg:left-6 flex items-center gap-2">
-              <img src="https://framerusercontent.com/images/YPbwseXgshxgxRkYKPZVujNrZY.png" alt="DogWifiTools" className="h-6" />
-              {/* <span className="text-white/90 text-lg">DogWifiTools</span> */}
-            </div>
+           {/* Logo */}
+<div className="lg:absolute lg:left-6 flex items-center gap-4">
+    {/* Image */}
+    <img src="./images/m1.png" alt="Image Description" className="h-12 w-auto" />
+    {/* Name */}
+    <span className="text-white/90 text-lg font-semibold">Metadrip</span>
+</div>
+
 
             {/* Mobile Menu Button */}
             <button 
